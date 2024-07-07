@@ -4,7 +4,7 @@ import joblib  # For loading the trained model
 from datetime import time as dt_time  # Avoids conflict with time module
 import time
 # Load your trained model
-model = joblib.load('/Users/namanlabhsetwar/Desktop/Solar-Data-Analysis/IITK Work/svr_model.pkl')
+model = joblib.load('svr_model.pkl')
 
 st.markdown("""
     <style>
